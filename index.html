@@ -127,18 +127,83 @@
           Comparaison des résultats SQL avec ceux obtenus avec pandas.
       <div class="project-images">
         <h4>Quelques visualisations des ventes</h4>
+        <h5>1. Analyse du chiffre d'affaires par produit</h5>
+        <p>
+          Ce graphique permet de comparer la contribution de chaque produit
+          au chiffre d'affaires total. Il aide à identifier les produits
+          qui génèrent le plus de chiffre d'affaires.
+        </p>
         <img
           src="https://raw.githubusercontent.com/banouna/sales-insights-python-sql/master/resultats/chiffre_affaire_par_produit.png"
           alt="Chiffre d'affaires par produit"
           style="width:100%; max-width:500px; height:auto; margin-bottom:15px;">
+       <p>
+           L’ordinateur génère 6 800 €, soit 62,5 % du chiffre d’affaires total. Il constitue le principal moteur du chiffre d'affaires. À l’inverse, la souris représente 24 unités vendues, mais seulement 600 € de chiffre d’affaires. Cela montre que le volume vendu et la contribution au chiffre d’affaires sont deux indicateurs différents.
+           Recommandation : sécuriser la disponibilité des ordinateurs et analyser les possibilités de ventes complémentaires, par exemple avec les écrans et les accessoires.
+       </p>
+        <h5>2. Chiffre d'affaires par ville</h5>
+         <p>
+          Cette visualisation compare les ventes réalisées dans les différentes
+          villes. Elle permet de repérer les marchés les plus contributeurs
+          et ceux qui pourraient nécessiter davantage d'attention.
+        </p>
         <img
           src="https://raw.githubusercontent.com/banouna/sales-insights-python-sql/master/resultats/chiffre_affaire_par_ville.png"
           alt="Chiffre d'affaires par ville"
           style="width:100%; max-width:500px; height:auto; margin-bottom:15px;">
+          <p>
+            <strong>Paris</strong> arrive en tête avec un chiffre d'affaires
+            de 4 285 €, soit 39,4 % du total, pour 22 unités vendues.
+            <strong>Lille</strong> occupe la deuxième position avec 3 435 €,
+            soit 31,6 % du chiffre d'affaires. À elles deux, ces villes
+            représentent environ 71 % des revenus.
+          </p>
+          <p>
+            Un écart intéressant apparaît entre Lyon et Marseille :
+            Lyon génère 1 790 € pour 13 unités, tandis que Marseille
+            réalise 1 375 € pour 16 unités. Le chiffre d'affaires moyen
+            par unité est donc plus élevé à Lyon (environ 137,69 €)
+            qu'à Marseille (environ 85,94 €). Cette différence peut
+            s'expliquer par un mix de produits différent et mérite
+            une analyse complémentaire.
+        </p>
+        <p>
+          <strong>Recommandation :</strong> consolider les performances
+          à Paris et Lille, puis analyser les produits vendus à Lyon
+          et Marseille afin de comprendre les différences de valeur
+          moyenne par unité et d'identifier des possibilités de croissance.
+        </p>
+         <h5>3. Chiffre d'affaires par jour</h5>
+         <p>
+          Ce graphique montre l'évolution du chiffre d'affaires quotidien
+          sur la période étudiée. Il permet de repérer les journées les plus
+          performantes et les variations des ventes.
+        </p>
         <img
           src="https://raw.githubusercontent.com/banouna/sales-insights-python-sql/master/resultats/chiffre_affaire_par_jour.png"
           alt="Chiffre d'affaires par jour"
           style="width:100%; max-width:500px; height:auto; margin-bottom:15px;">
+        <p>
+          Sur la période du 1er au 10 septembre 2026, le chiffre d'affaires
+          total atteint 10 885 €, soit une moyenne de 1 088,50 € par jour.
+          Le 6 septembre est la journée la plus performante avec 2 650 €,
+          représentant environ 24,3 % du chiffre d'affaires de la période.
+        </p>
+        <p>
+          Des variations importantes sont observées entre les journées.
+          Le chiffre d'affaires atteint également 1 825 € le 1er septembre
+          et 1 790 € le 8 septembre, tandis qu'il descend à 405 € le
+          10 septembre. Ces écarts peuvent être liés aux quantités vendues
+          ou aux produits achetés, mais nécessitent une analyse complémentaire
+          pour en identifier les causes.
+        </p>
+        <p>
+          <strong>Recommandation :</strong> comparer les produits et les
+          quantités vendues lors des journées les plus performantes afin
+          d'identifier les principaux facteurs de chiffre d'affaires.
+          Un suivi sur une période plus longue permettra de déterminer
+          si les variations observées correspondent à une tendance durable.
+        </p>
       </div>
           <p>
             <a href="https://github.com/banouna/sales-insights-python-sql"
