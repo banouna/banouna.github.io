@@ -81,31 +81,69 @@
     <h3>Étudiant en L3 MIAGE à Nantes Université</h3>
 
     <p>
-      Actuellement étudiant en troisième année de Licence
-      MIAGE (Méthodes Informatiques Appliquées à la Gestion
-      des Entreprises) à Nantes Université, je m'intéresse
-      particulièrement à l'informatique, à l'analyse des
-      données et au développement logiciel.
-    </p>
-    <p>
-      Je possède des compétences en programmation, notamment
-      en C, C++ et Java. Je développe également mes compétences
-      en analyse de données à travers des projets utilisant
-      Excel, Python, SQL et Power BI.
+      Actuellement étudiant en troisième année de Licence MIAGE
+      (Méthodes Informatiques Appliquées à la Gestion des Entreprises)
+      à Nantes Université, je m'intéresse à l'informatique, au
+      développement logiciel, à l'analyse des données et à
+      l'intelligence artificielle.
     </p>
 
     <p>
-      Curieux et motivé, j'aime concevoir des solutions
-      informatiques, résoudre des problèmes et découvrir
-      de nouvelles technologies. Je souhaite continuer à
-      approfondir mes connaissances en développement et en
-      data, tout en travaillant sur des projets concrets.
+      Je possède des compétences en programmation, notamment en
+      C, C++ et Java. Je développe également mes compétences en
+      analyse de données à travers des projets utilisant Excel,
+      Python, SQL et Power BI.
     </p>
+
+    <p>
+      Curieux et motivé, j'aime concevoir des solutions informatiques,
+      résoudre des problèmes et explorer de nouvelles technologies.
+      Je m'intéresse particulièrement aux possibilités offertes par
+      l'intelligence artificielle pour automatiser des tâches,
+      analyser des données et développer des solutions innovantes.
+    </p>
+
+    <h3>Mes domaines d'intérêt</h3>
+
+    <div class="interest-grid">
+      <div class="interest-card">
+        <h4>📊 Data Analytics</h4>
+        <p>
+          Analyse et visualisation des données avec Excel,
+          Python, SQL et Power BI.
+        </p>
+      </div>
+
+      <div class="interest-card">
+        <h4>💻 Développement logiciel</h4>
+        <p>
+          Programmation en C, C++ et Java, résolution
+          de problèmes et conception de solutions informatiques.
+        </p>
+      </div>
+
+      <div class="interest-card">
+        <h4>🤖 Intelligence artificielle</h4>
+        <p>
+          Intérêt pour le machine learning, l'automatisation
+          intelligente et les applications de l'IA.
+        </p>
+      </div>
+
+      <div class="interest-card">
+        <h4>🚀 Innovation technologique</h4>
+        <p>
+          Découverte de nouvelles technologies et réalisation
+          de projets concrets pour développer mes compétences.
+        </p>
+      </div>
+    </div>
 
     <a href="#projects" class="btn">
       Découvrir mes projets
     </a>
   </div>
+</section>
 </section>
      <section id="contact">
       <h2>Contact</h2>
@@ -323,9 +361,60 @@
       📊 Voir les fichiers Excel dans github
     </a>
     </div>
-      <article class="project">
-        <h3>Projet 3 — Tableau de bord Power BI</h3>
-      </article>
+    
+.about {
+  padding: 60px 20px;
+  line-height: 1.8;
+}
+
+.about h2 {
+  margin-bottom: 24px;
+}
+
+.about h3 {
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+.about p {
+  max-width: 850px;
+  margin-bottom: 16px;
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.interest-card {
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.interest-card h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.interest-card p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+}
   </main>
   <footer>
     <p>Portfolio Data Analyst Junior</p>
